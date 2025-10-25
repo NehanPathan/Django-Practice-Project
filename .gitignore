@@ -1,0 +1,71 @@
+# ---- Django / Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.pot
+*.py,cover
+*.mo
+*.pyc
+
+# ---- Virtual Environment ----
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+Pipfile.lock
+
+# ---- Django specific ----
+*.pid
+*.db
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static_root/
+tmp/
+
+# ---- IDEs and Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- PyCharm / VSCode specific ----
+*.iml
+*.ipr
+*.iws
+
+# ---- Migrations ----
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment if you don’t want migrations tracked early:
+# */migrations/
+
+# ---- Environment Variables / Secrets ----
+.env
+*.env
+secrets.json
+
+# ---- Byte-compiled / cache ----
+*.py[cod]
+__pycache__/
+*.so
+
+# ---- Build / Packaging ----
+build/
+dist/
+.eggs/
+*.egg-info/
+.eggs/
+MANIFEST
